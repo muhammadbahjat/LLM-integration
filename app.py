@@ -78,14 +78,14 @@ def create_detailed_prompt(data, analysis_type):
     if analysis_type == 'top_unit':
         prompt = "Analyze the following units and provide detailed feedback on which unit is the best:\n"
     elif analysis_type == 'unit_price_history':
-        prompt = "Analyze the following units and provide detailed feedback on which units have had the biggest price changes downwards:\n"
+        prompt = "Analyze the following units and provide feedback on which units have had the biggest price changes downwards. write to the point answer only:\n"
     elif analysis_type == 'building_deals':
         neighborhood = request.args.get('neighborhood')
-        prompt = f"Analyze the following units in the {neighborhood} neighborhood and provide detailed feedback on which buildings are the best deals:\n"
+        prompt = f"Analyze the following units in the {neighborhood} neighborhood and provide to the point feedback on which buildings are the best deals:\n"
     elif analysis_type == 'sales_rep_feedback':
-        prompt = "Analyze the performance of the sales representative and provide detailed feedback:\n"
+        prompt = "Analyze the performance of the sales representative and provide a short feedback:\n"
     elif analysis_type == 'team_performance':
-        prompt = "Analyze the overall performance of the sales team based on the following data and provide detailed feedback:\n"
+        prompt = "Analyze the overall performance of the sales team based on the following data and provide a short feedback:\n"
     else:
         prompt = "Analyze the following units:\n"
 
