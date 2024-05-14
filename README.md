@@ -18,16 +18,12 @@ This project uses a Large Language Model (LLM) to analyze the unit price data an
 ## Setup
 
 1. Clone the repository:
-    git clone https://github.com/muhammadbahjat/LLM-integration.git
+    > git clone https://github.com/muhammadbahjat/LLM-integration.git
 
-
-2. Install dependencies:
-    pip install -r requirements.txt
-
-3. Set your Cohere API key:
+2. Set your Cohere API key:
     login into Cohere and get your API 
 
-4. RUN Flask App:
+3. RUN Flask App:
     python app.py
 
 
