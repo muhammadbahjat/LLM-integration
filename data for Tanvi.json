@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "1000 South Clark",
+        "address": "1000 S Clark St",
+        "city": "Chicago",
+        "description": "Brand new, probably THE BEST amenity space in the entire city (40,000 sq ft gym, basketball court, golf simulator, racquetball court). East-facing 1-beds are very well laid out.",
+        "neighborhood": "South Loop",
+        "parking": "Yes",
+        "washer dryer": "Yes",
+        "balcony": "Yes",
+        "pet policy": "Allowed with fee and Restriction"
+    },
+    {
+        "id": 2,
+        "name": "1001 South State",
+        "address": "1001 S State St",
+        "city": "Chicago",
+        "description": "Brand new and one of the more popular buildings in the city. Beautiful amenities and excellent views. which makes them just a bit cheaper than 1000 S Clark.",
+        "neighborhood": "South Loop",
+        "parking": "Yes",
+        "washer dryer": "Yes",
+        "balcony": "No",
+        "pet policy": "Allowed with fee and Restriction"
+    },
+    {
+        "id": 3,
+        "name": "Eleven Thirty",
+        "address": "1130 S Michigan Ave",
+        "city": "Chicago",
+        "description": "Hotel inspired apartments in south loop area. Lake views, 24-Hour Fitness Center, resort style pool with sun deck and conference room. Walking distance to Yolk, Zip Car Site and a Lakeside Market.",
+        "neighborhood": "South Loop",
+        "parking": "Yes",
+        "washer dryer": "Select Units",
+        "balcony": "No",
+        "pet policy": "Allowed"
+    }
+]
