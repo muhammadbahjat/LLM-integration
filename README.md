@@ -18,7 +18,7 @@ This project uses a Large Language Model (LLM) to analyze the unit price data an
 ## Setup
 
 1. Clone the repository:
-    > git clone https://github.com/muhammadbahjat/LLM-integration.git
+    ``` git clone https://github.com/muhammadbahjat/LLM-integration.git ```
 
 2. Set your Cohere API key:
     login into Cohere and get your API 
