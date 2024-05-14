@@ -26,8 +26,9 @@ This project uses a Large Language Model (LLM) to analyze the unit price data an
     login into Cohere and get your API 
 
 4. RUN Flask App:
-    python app.py
-
+```
+   python app.py
+```
 
 
 
